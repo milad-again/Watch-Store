@@ -1,0 +1,85 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Mj_Nissabouri_0";
+        src: local("Mj_Nissabouri_0"), url(/public/font/Mj_Nissabouri_0.ttf) format("ttf");
+        font-display: swap;
+       }
+     
+}
+@layer base {
+    @font-face {
+        font-family: "tahoma";
+        src: local("Mj_Nissabouri_0"), url(/public/font/tahoma.ttf) format("ttf");
+        font-display: swap;
+       }
+     
+}
+@layer base {
+    @font-face {
+        font-family: "vazir";
+        src: local("Mj_Nissabouri_0"), url(/public/font/Vazir.woff) format("ttf");
+        font-display: swap;
+       }
+     
+}
+@layer base {
+    body {
+        font-family: "tahoma" ;
+
+        /* height: 2000px; */
+    }
+    /* HTML: <div class="loader"></div> */
+
+  @keyframes l2 {to{transform: rotate(1turn)}}
+    
+}
+/* @layer components {
+    .dark{
+    background-color:rgb(39 39 42)  ;
+    }
+    
+} */
+@layer components {
+    .dark{
+    
+        background-color: rgb(39, 39, 42);
+        transition-duration: 200ms;
+    
+    }
+    
+}
+
+
+/* @layer components {
+    .submenu{
+      @apply hidden flex-col dark:text-white;
+    }
+  }
+  .submenu--open{
+    @apply inline-block
+  
+  } */
+
+
+@layer components {
+  .submenu2 {
+    @apply hidden flex-col dark:text-white;
+  }
+  .submenu--open2 {
+    @apply inline-block
+  }
+}
+
+.inactive {
+  background-color: gray;
+}
+
+
+
+
