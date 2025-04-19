@@ -68,9 +68,9 @@ export default function LoginForm() {
       <Header />
       <MobileHeader />
       <div>
-        <img className="w-screen h-screen object-fill" src="/images/LoginForm/1.png" alt="" />
+        <img className=" h-screen w-screen object-cover" src="/images/LoginForm/1.png" alt="" />
         <div
-          className={`w-[400px] h-[480px] mx-auto mt-40 rounded-3xl fixed top-0 right-0 left-0 bg-gray-800/50 backdrop-blur-[6px] transition-all duration-500 ${formTransition ? 'opacity-0 translate-x-[50px]' : 'opacity-100 translate-x-0'}`}
+          className={`md:w-[400px] w-[90%] h-[60%] md:h-[480px] mx-auto mt-40 rounded-3xl fixed top-0 right-0 left-0 bg-gray-800/50 backdrop-blur-[6px] transition-all duration-500 ${formTransition ? 'opacity-0 translate-x-[50px]' : 'opacity-100 translate-x-0'}`}
         >
           <h2 className="text-center pt-10 text-xl text-white transition-all duration-500">{isRegister ? "ثبت نام" : "ورود"}</h2>
           <div className="text-white text-center pt-6">
