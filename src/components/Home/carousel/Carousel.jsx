@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const images = [
-  "/Images/Carousel/1.png",
-  "/Images/Carousel/2.png",
-  "/Images/Carousel/3.png",
+  "./Images/Carousel/1.png",
+  "./Images/Carousel/2.png",
+  "./Images/Carousel/3.png",
 ];
 
 export default function Carousel() {

@@ -270,7 +270,6 @@ export default function MobileHeader() {
             </div>
           </div>
           <div className="flex absolute w-[100%] bottom-1 dark:bg-neutral-700 bg-gray-200 p-1 flex-col gap-1 tracking-tighter pr-1">
-            {/* <div className="w-full h-[1px] bg-gray-400"></div> */}
             <div className="flex flex-col text-center dark:text-gray-300">
               <span className="text-xs">مبلغ قابل پرداخت</span>
               <span className="text-lg">
